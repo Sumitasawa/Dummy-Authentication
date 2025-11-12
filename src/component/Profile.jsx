@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUserProfile } from "../features/auth/authThunks";
-import { logout } from "../features/auth/authSlice";
+import { fetchUserProfile } from "../Features/auth/authThunks";
+import { logout } from "../Features/auth/authSlice";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
 
